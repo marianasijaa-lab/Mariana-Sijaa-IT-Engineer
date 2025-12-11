@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+  @theme {
+    --color-primary: #34117E;
+    --color-secondry: #491AB1;
+    --color-green-1: #6631DB;
+    --color-green-2: #7B45F0;
+    --color-gray-a: #A981FF;
+    --color-white-a: #DCBCFC;
+    --color-white-b:#B796FE;
+
+  }
+
+html{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:auto
+    "wdth" 100;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.center-container {
+    @apply   container  box-border mx-auto px-5 w-[90%] ;
+
+}
