@@ -709,7 +709,7 @@ const HomePage = () => {
                              variants={aboutBlockVariants} 
                              className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
                              <motion.a
-                             href='/contact' 
+                             href='#contact' 
                                  whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(140,7,170,0.4)" }}
                                  whileTap={{ scale: 0.95 }}
                                  className="bg-primary border border-secondry hover:bg-green-1 hover:text-gray-a text-white-a  font-semibold py-3 px-8 rounded-full transition duration-300 shadow-lg">
@@ -717,7 +717,7 @@ const HomePage = () => {
                              </motion.a>
                              <motion.a
                              target="_blank"
-                             href= "public/Mariana _Sijaa_IT Engineer_resume (5).pdf" 
+                             href= "/Mariana _Sijaa_IT Engineer_resume (5).pdf" 
                              download="Mariana _Sijaa_IT Engineer_Resume"
                                  whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(140,7,170,0.4)" }}
                                  whileTap={{ scale: 0.95 }}
