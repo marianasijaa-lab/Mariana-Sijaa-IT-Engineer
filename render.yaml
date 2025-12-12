@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-app-name
+    name: MarianaSijaa-Portfolio
     env: node
     buildCommand: npm run build
     startCommand: npx serve -s build
